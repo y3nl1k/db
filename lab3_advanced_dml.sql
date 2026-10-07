@@ -10,7 +10,7 @@ CREATE TABLE employees (
     hire_date DATE,
     status VARCHAR(20) DEFAULT 'Active'
 );
-
+drop table employees;
 CREATE TABLE departments (
     dept_id SERIAL PRIMARY KEY,
     dept_name VARCHAR(50),
